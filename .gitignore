@@ -1,0 +1,11 @@
+*.class
+*.log
+target/
+build/
+.project
+.classpath
+.settings/
+.idea/
+*.iml
+.DS_Store
+.env

@@ -14,11 +14,11 @@ public class ReviewTest {
 
 	public static void main(String[] args) {
 
-		// testAdd();
+		 //testAdd();
 		// testDelete();
 		// testUpdate();
 		//testSearch();
-		testFindByPk();
+		//testFindByPk();
 	}
 
 	public static void testAdd() {
@@ -27,9 +27,9 @@ public class ReviewTest {
 			ReviewBean bean = new ReviewBean();
 
 			bean.setReviewCode("REV001");
-			bean.setUserName("Anmol");
-			bean.setRating(5);
-			bean.setStatus("Active");
+			bean.setUserName("rakshit");
+			bean.setRating(4);
+			bean.setStatus("Done");
 
 			long pk = model.add(bean);
 

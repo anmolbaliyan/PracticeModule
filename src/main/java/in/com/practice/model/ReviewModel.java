@@ -50,7 +50,7 @@ public class ReviewModel {
 			conn.setAutoCommit(false);
 
 			PreparedStatement ps = conn
-					.prepareStatement("INSERT INTO st_review (id, code, name, rating, status) VALUES (?, ?, ?, ?, ?)");
+					.prepareStatement("INSERT INTO st_review VALUES (?, ?, ?, ?, ?)");
 
 			ps.setLong(1, pk);
 			ps.setString(2, bean.getReviewCode());

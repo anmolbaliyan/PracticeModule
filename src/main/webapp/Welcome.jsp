@@ -5,20 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+
 </head>
 <body>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+	<%@ include file="Header.jsp"%>
 	<div align="center">
-		<h1>
-			<a href="WelcomeCtl">Practice</a>
-		</h1>
+		<h1>Welcome to my website</h1>
 	</div>
 </body>
 </html>

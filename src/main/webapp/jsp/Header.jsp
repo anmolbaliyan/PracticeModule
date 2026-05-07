@@ -1,4 +1,5 @@
 <%@page import="in.com.practice.bean.GeoFenceBean"%>
+<%@page import="in.com.practice.ctl.ORSView"%>
 
 <!DOCTYPE html>
 <html>
@@ -27,7 +28,11 @@
 	<a href="UserRegistrationCtl">SignUp</a> |
 	<a href="GeoFenceCtl">Add GeoFence</a> |
 	<a href="GeoFenceListCtl">GeoFence list</a> |
-	<a href="WelcomeCtl">Welcome</a>
+	<a href="BatchCtl">Add Batch</a> |
+	<a href="BatchListCtl">Batch list</a> |
+	<a href=<%=ORSView.WELCOME_CTL%>>Welcome</a> |
+	<a href=<%=ORSView.CONSUMER_CTL%>><b>add Consumer</b> |
+	<a href=<%=ORSView.CONSUMER_LIST_CTL%>><b>Consumer List</b> |
 	<hr>
 </body>
-</html>
+</html> 
